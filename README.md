@@ -1,4 +1,4 @@
-README.md
+##Kubernetes Commands
 
-<h3>Kubernetes Commands</h3>
-
+######To pull nginx image from docker
+`kubectl run nginx --image=nginx`
