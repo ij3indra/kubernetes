@@ -1,4 +1,4 @@
-##Kubernetes Commands
+## Kubernetes Commands
 
-######To pull nginx image from docker
+###### To pull nginx image from docker
 `kubectl run nginx --image=nginx`
