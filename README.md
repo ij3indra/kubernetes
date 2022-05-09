@@ -24,7 +24,23 @@
 
 `kubectl get services`
 
+`kubectl describe service nginx-deployment`
+
+`kubectl delete deployment nginx-deployment`
+
 ### docker Commands
 `docker exec -it imageId sh`
+
 `hostname`
+
 `hostname -i`
+
+###### Build and push image to docker hub
+
+- In below command jatindra is username of docker hub and k8-hello-app is name of directory.
+- Make sure to run this command from same folder where `Dockerfile` resides.
+- `latest` will be tag name. We can also add version name there.
+
+`docker build . -t jatindra/k8-hello-app:latest`
+
+
