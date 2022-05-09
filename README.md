@@ -54,6 +54,20 @@ Check the deployment status with
 
 `hostname -i`
 
+### To delete all
+
+This will delete pods, deployment and services
+
+`kubectl delete all --all`
+
+### Deploymenmt using deployment/service specification file
+
+`kubectl apply -f deployment.yaml`
+
+`kubectl apply -f service.yaml`
+
+`kubectl delete -f deployment.yaml -f service.yaml`
+
 ###### Build and push image to docker hub
 
 - In below command jatindra is username of docker hub and k8-hello-app is name of directory.
